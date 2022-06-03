@@ -335,7 +335,6 @@ func (obj SMS) Decode(pdu string) {
 		Return = append(Return, hexline[1:2]+hexline[0:1])
 		Binary = append(Binary, toStr(toInt(strconv.FormatInt(int64(v), 2)) + 100000000)[1:])
 	}
-	p(o.Point)
 	o.ServiceCenterAddressLength = toInt(toCapacity(getPart(Forward, 1, false, &o.Point), 16, 10, 2))
 	if o.ServiceCenterAddressLength > 0 {
 		o.ServiceCenterAddressLength = o.ServiceCenterAddressLength - 1
