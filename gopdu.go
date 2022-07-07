@@ -1,3 +1,5 @@
+// Source package for Encode/Decode
+// Packet Data Unit (PDU) (7bit, UCS2)
 package gopdu
 
 import (
