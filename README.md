@@ -1,5 +1,5 @@
-# Source package for Encode/Decode PDU
-> - If your app using GSM functionality
+# Source package for Encode/Decode Packet Data Unit (PDU) (7bit, UCS2)
+> - If your app using GSM SMS functionality
 > - Asterisk
 > - Some tests
 
